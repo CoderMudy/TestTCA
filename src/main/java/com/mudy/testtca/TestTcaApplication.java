@@ -10,4 +10,14 @@ public class TestTcaApplication {
         SpringApplication.run(TestTcaApplication.class, args);
     }
 
+    void test(){
+        int i = 1/0;
+        System.out.println("i = " + i);
+    }
+
+    void test2(){
+        int i = 1/0;
+        System.out.println("i = " + i);
+    }
+
 }
