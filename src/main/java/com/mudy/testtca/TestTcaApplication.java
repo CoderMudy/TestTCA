@@ -20,4 +20,9 @@ public class TestTcaApplication {
         System.out.println("i = " + i);
     }
 
+    void test3(){
+        int i = 1/0;
+        System.out.println("i = " + i);
+    }
+
 }
